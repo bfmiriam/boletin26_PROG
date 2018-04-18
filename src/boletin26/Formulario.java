@@ -168,10 +168,8 @@ public class Formulario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAgregarActionPerformed
-       DefaultTableModel model =  (DefaultTableModel) jTable.getModel();
-       
+       DefaultTableModel model =  (DefaultTableModel) jTable.getModel();     
        model.addRow(new Object[]{jNome.getText(), jApelido.getText(),jCurso.getSelectedItem()});
-       //jTable.add();
     }//GEN-LAST:event_jAgregarActionPerformed
 
     private void jNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jNomeActionPerformed
